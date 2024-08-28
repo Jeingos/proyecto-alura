@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador One</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+
+</head>
+<body>
+    <header class="header">
+
+        <img src="./asset/Logo.png">
+       <!-- <nav class="header__menu">
+            <a class="header__menu_link" href="index.html">Home</a>
+            <a class="header__menu_link" href="about.html">Sobre mi</a>
+        </nav>\-->
+    </header>
+
+    <!--cuerpo-->
+<main>
+    <section class="presentacion_contenido">
+        <!--cuadro de texto-->
+            <input  class="encriptar" placeholder="Ingrese Texto aquí">
+        <div>
+            <h2 class="presentacion__botones_subtitulo">
+                <!--simbolo de advertencia-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07M9 5v6h2V5zm0 8v2h2v-2z"/></svg> 
+                    <!--información aviso\-->
+                
+                Solo letras minúsculas y sin acentos 
+                
+            </h2>
+        </div>
+        <div class="presentacion__botones">
+
+           <!--botones--> 
+            <button type="submit" id="encriptara" class="btn_encriptara" > Encriptar
+            
+            <img src="./asset/Encriptar.png">
+            </button>   
+            <button type="submit" id="desencriptara" class="btn_desencriptara" >Desencriptar
+            <img src="./asset/Desencriptar.png">
+            </button>
+        </div>
+        </section> 
+        <section class="Tarjeta"> 
+        <div class="tarjeta-contenedor">
+            <img src="./asset/Muñeco.png" alt="Encriptador de alura" alt="Muñeco imagen" class="Muñeco">
+            <p class="texto1"><strong>Ningún texto fue encontrado</strong></p>
+            <p class="texto2">ingrese el texto que deseas encriptar o desencriptar</p>
+        </div>
+        <textarea type="mensaje"  class="evaluar" readonly></textarea>
+        <button type="submit" class="copiar">copiar</button>
+    </section> 
+</main>
+    <footer class="footer">
+        <p>Desarrollado por jeins </p>
+    </footer>
+    <script src="./js/encriptador.js"></script>
+</body>
+</html>

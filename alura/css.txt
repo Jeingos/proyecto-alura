@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario:#000000;
+    --color-secundario:#f6f6f6;
+    --color-terciario:#22d4fd;
+    --color-hover:#272727;
+
+    --fuente-krona: 'Krona One', sans-serif
+}
+
+*   {
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:var(--color-primario);
+    color: var(--color-secundario);
+    
+    box-sizing: border-box;
+}
+
+.header__menu{
+   padding-top: 2%;
+   padding-right: 0%;
+   padding-bottom: 0%;
+   padding-left: 15%;
+   display: flex;
+   gap: 5rem;
+   
+}
+
+.header__menu_link{
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--color-terciario);
+    text-decoration: none;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 7% 15%;
+    justify-content: space-between;
+}
+.presentacion_contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.presentacion_contenido_titulo{
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+}
+.titulo-destaque{
+    color: var(--color-terciario);
+}
+.presentacion_contenido_texto{
+    font-size: 1.5rem;
+    font-family: var(--fuente-krona);
+}
+.presentacion__enlaces{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+       gap: 2.5rem;
+}
+.presentacion__enlaces_link{
+    width: 378px;
+    
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.presentacion__enlaces_subtitulo{
+
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.presentacion__enlaces_link:hover{
+    cursor: pointer;
+    background-color: var(--color-hover);
+}
+.footer{
+    background-color: var(--color-terciario);
+    padding: 1.5rem;
+    color: var(--color-primario);
+    text-align: center;
+    font-family:var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
